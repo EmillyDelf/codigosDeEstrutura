@@ -14,6 +14,7 @@ public class TesteVetorB3 {
         vetor.adicionar("Teclado");
         vetor.adicionar("Mouse");
         vetor.adicionar("GPU");
+        vetor.imprimeUmPorLinha();
         System.out.println("Ultimo item da lista é: " + vetor.ultimo());
 
     }

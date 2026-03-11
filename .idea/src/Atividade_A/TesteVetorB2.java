@@ -10,7 +10,7 @@ public class TesteVetorB2 {
         vetor.adicionar("Iphone_13");
         vetor.adicionar("Iphone_14");
         vetor.adicionar("Iphone_15");
-
+        vetor.imprimeUmPorLinha();
         System.out.println("Posição: " + vetor.busca("Iphone_12"));
         System.out.println("Item no vetor: " + vetor.contem("Iphone_13"));
 

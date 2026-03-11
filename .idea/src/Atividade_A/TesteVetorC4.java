@@ -11,7 +11,7 @@ public class TesteVetorC4 {
 
         System.out.println("Vetor: ");
         vetor.imprimeUmPorLinha();
-
+        System.out.println("Limpando o vetor!");
         vetor.limpar();
 
         System.out.println("Vetor: ");

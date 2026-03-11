@@ -11,6 +11,8 @@ public class Main {
         System.out.println("Executando TesteVetorB2...");
         TesteVetorB2.main(args);
 
+        System.out.println("\n---------------------------\n");
+
         System.out.println("Executando TesteVetorB3...");
         TesteVetorB3.main(args);
 
@@ -18,6 +20,8 @@ public class Main {
 
         System.out.println("Executando TesteVetorC4...");
         TesteVetorC4.main(args);
+
+        System.out.println("\n---------------------------\n");
 
         System.out.println("Executando TesteVetorC5...");
         TesteVetorC5.main(args);
@@ -27,5 +31,6 @@ public class Main {
         System.out.println("Executando TesteVetorC6...");
         TesteVetorC6.main(args);
 
+        System.out.println("\n---------------------------\n");
     }
 }

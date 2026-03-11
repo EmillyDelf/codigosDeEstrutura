@@ -104,11 +104,13 @@
 
 -----------------------------------------------------------------------------------------
 
-<h1>
+    <h1>
         Atividade 2 / D E F
     </h1>
     <h3> Main principal </h3>
-    <p> package Atividade_D;
+    <p> 
+
+package Atividade_D;
 
 public class Main {
     static void main(String[] args) {
@@ -122,9 +124,12 @@ public class Main {
         TesteVetor8.main(args);
 
     }
-}</p>
+}
+</p>
     <h3> Vetor principal </h3>
-    <p> package Atividade_D;
+    <p>
+        
+package Atividade_D;
 
 public class Vetor {
 
@@ -201,59 +206,8 @@ public class Vetor {
 
         return s.toString();
     }
-}</p>
-        return -5;
-    }
-
-    // Parte C
-    //# 8 Questão
-
-    public void limpar(){
-        for (int i = 0; i < capacidade; i++) {
-            elementos[i] = null;
-        }
-        capacidade = 0;
-    }
-
-    //#9 Questão
-
-    public int contarOcorrencias(String elemento){
-        int contador = 0;
-        for (int i = 0; i < capacidade; i++) {
-            if (elementos[i].equals(elemento)){
-                contador++;
-            }
-        }
-
-        return contador;
-    }
-
-    //#10 Questão
-
-    public boolean substituir(String antigo, String novo){
-        for (int i = 0; i < capacidade; i++) {
-            if (elementos[i].equals(antigo)){
-                elementos[i] = novo;
-                return true;
-            }
-        }
-        return false;
-    }
-    public int getCapacidade() {
-        return capacidade;
-    }
-
-    public void setCapacidade(int capacidade) {
-        this.capacidade = capacidade;
-    }
-
-    public String[] getElementos() {
-        return elementos;
-    }
-
-    public void setElementos(String[] elementos) {
-        elementos = elementos;
-    }
+}
+</p>
     }
 
 </p>

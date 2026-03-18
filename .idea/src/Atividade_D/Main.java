@@ -1,7 +1,8 @@
 package Atividade_D;
 
 public class Main {
-    static void main(String[] args) {
+    // Eu acabei esquecendo de colocar como public a linha de baixo
+    public static void main(String[] args) {
 
         System.out.println("Executando TesteVetor7...");
         TesteVetor7.main(args);

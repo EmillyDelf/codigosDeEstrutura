@@ -12,6 +12,8 @@ public class Vetor {
 
     }
 
+    // Metodo de adicionar, ele funciona para adicionar uma palavra no array ou "Vetor".
+
     public void adicionar(String pergunta){;
 
         if (capacidade < elementos.length) {
@@ -25,6 +27,8 @@ public class Vetor {
     //Parte A
 
     //#1 questão
+
+    // Metodo de estaVazia, esse metodo funciona para analisa se o array ou "Vetor" estar vazio e retornar em modo booleano.
     public boolean estaVazia(){
         if (capacidade == 0){
             return true;
@@ -33,7 +37,10 @@ public class Vetor {
         }
     }
 
+
     //#3 questão
+
+    // Metodo de imprimeUmPorLinha, esse metodo ele vai imprimir o Vetor por linha.
     public void imprimeUmPorLinha(){
         for (int i = 0; i < capacidade; i++) {
             System.out.println(elementos[i]);
@@ -41,6 +48,8 @@ public class Vetor {
     }
 
     // #2 questão
+
+    //Metodo ultimo, esse metodo ele vai procura o ultimo que foi criado no array ou "Vetor.
 
     public String ultimo(){
         if (capacidade == 0){
@@ -53,17 +62,22 @@ public class Vetor {
 
     //#4 Quetão
 
-    public boolean contem(String elemento) {
+    //Metodo contem, esse metodo vai procurar o nome dentro do array e vai dizer se é true ou false
+
+    public boolean contem(String elemento){
 
         for (int i = 0; i < capacidade; i++) {
-            if (elementos[i].equals(elemento)) {
+            if (elementos[i].equals(elemento)){
                 return true;
             }
         }
+
         return false;
     }
 
     // #5 Busca foi adicionado por conta dos testes
+
+    //Metodo busca, esse metodo vai buscar o nome dentro do Vetor e vai aparecer o indice do array, caso não tiver o nome dentro do array vai reponder -5.
 
     public int busca(String elemento) {
         for (int i = 0; i < capacidade; i++) {
@@ -78,6 +92,8 @@ public class Vetor {
     // Parte C
     //# 8 Questão
 
+    // Metodo limpar, esse metodo vai limpar o array ou "vetor".
+
     public void limpar(){
         for (int i = 0; i < capacidade; i++) {
             elementos[i] = null;
@@ -86,6 +102,8 @@ public class Vetor {
     }
 
     //#9 Questão
+
+    //Metodo contarOcorrencia, Esse metodo vai contar nomes repetidos no array.
 
     public int contarOcorrencias(String elemento){
         int contador = 0;
@@ -99,6 +117,8 @@ public class Vetor {
     }
 
     //#10 Questão
+
+    //Metodo substituir, esse metodo vai substituir um nome antigo para outro nome novo.
 
     public boolean substituir(String antigo, String novo){
         for (int i = 0; i < capacidade; i++) {

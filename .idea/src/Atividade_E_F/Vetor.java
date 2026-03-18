@@ -58,6 +58,8 @@ public class Vetor {
     }
 
     // PARTE 13
+
+    // PARA ENCONTRAR A ÚLTIMA POSIÇÃO EM QUE UM ELEMENTO APARECE NO VETOR
     public int indiceUltimo(String elemento) {
 
         for (int i = tamanho - 1; i >= 0; i--) {
@@ -70,6 +72,8 @@ public class Vetor {
     }
 
     // PARTE 14
+
+    //ONDE REMOVE  TODAS AS OCORRENCIAS DE UM ELEMENTO CHAMANDO O REMOVE REPETIDAMENTE ATE QUE ESSE ELEMENTO NÃO EXISTA NO VETOR
     public void removerTodos(String elemento) {
 
         while (remove(elemento)) {

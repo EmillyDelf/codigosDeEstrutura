@@ -25,11 +25,11 @@ public class Vetor {
     //Parte A
 
     //#1 questão
-    public void estaVazia(){
+    public boolean estaVazia(){
         if (capacidade == 0){
-            System.out.println(false);
+            return true;
         }else {
-            System.out.println(true);
+            return false;
         }
     }
 
@@ -53,14 +53,13 @@ public class Vetor {
 
     //#4 Quetão
 
-    public boolean contem(String elemento){
+    public boolean contem(String elemento) {
 
         for (int i = 0; i < capacidade; i++) {
-            if (elementos[i].equals(elemento)){
+            if (elementos[i].equals(elemento)) {
                 return true;
             }
         }
-
         return false;
     }
 

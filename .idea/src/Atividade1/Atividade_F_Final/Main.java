@@ -1,4 +1,4 @@
-package Atividade_F_Final;
+package Atividade1.Atividade_F_Final;
 
 public class Main {
     static void main(String[] args) {

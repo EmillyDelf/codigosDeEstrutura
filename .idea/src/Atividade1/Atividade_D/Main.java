@@ -1,4 +1,4 @@
-package Atividade_D;
+package Atividade1.Atividade_D;
 
 public class Main {
     // Eu acabei esquecendo de colocar como public a linha de baixo

@@ -2,18 +2,19 @@ package Atividade2;
 
 import java.util.Arrays;
 
-public class Pilha {
-    private String[] elementos;
+public class Pilha<T> {
+    private Object[] elementos;
     private int tamanho;
 
 
     public Pilha(int capacidade) {
-        elementos = new String[capacidade];
+        elementos = new Object[capacidade];
         tamanho = 0;
     }
 
+    //Parte 1
 
-    public void empilha(String elemento) {
+    public void empilha(T elemento) {
         if (tamanho == elementos.length) {
             System.out.println("Pilha cheia!");
             return;
@@ -23,23 +24,23 @@ public class Pilha {
     }
 
 
-    public String desempilha() {
+    public T desempilha() {
         if (estaVazia()) {
             System.out.println("Pilha vazia!");
             return null;
         }
-        String elementoRemovido = elementos[tamanho - 1];
+        T elementoRemovido = (T) elementos[tamanho - 1];
         elementos[tamanho - 1] = null;
         tamanho--;
         return elementoRemovido;
     }
 
 
-    public String topo() {
+    public T topo() {
         if (estaVazia()) {
             return null;
         }
-        return elementos[tamanho - 1];
+        return (T) elementos[tamanho - 1];
     }
 
     public boolean estaVazia() {
@@ -50,6 +51,76 @@ public class Pilha {
         return tamanho;
     }
 
+    //Parte 2
+
+    public static String inverter(String palavra) {
+        String palavra_invertida = "";
+
+        for (int i = palavra.length() -1; i >= 0 ; i--) {
+            palavra_invertida += palavra.charAt(i);
+        }
+
+        return palavra_invertida;
+    }
+
+    public static <T> boolean ehPalindromoBase(T[] palavra) {
+
+        Pilha<T> pilha = new Pilha<T>(palavra.length);
+
+
+        for (int i = 0; i < palavra.length; i++) {
+            pilha.empilha(palavra[i]);
+        }
+
+
+
+        for (int i = 0; i < palavra.length; i++) {
+            T elementoOriginal = palavra[i];
+            T elementoDesempilhado = pilha.desempilha();
+
+            if (!elementoOriginal.equals(elementoDesempilhado)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
+    public static boolean ehPalindromo(String palavra) {
+        // Remove espaços e converte para minúsculas
+        palavra = palavra.toLowerCase().replace(" ", "");
+
+        // Converte a string para um array de Character
+        Character[] caracteres = new Character[palavra.length()];
+        for (int i = 0; i < palavra.length(); i++) {
+            caracteres[i] = palavra.charAt(i);
+        }
+
+        // Usa a função genérica
+        return ehPalindromoBase(caracteres);
+    }
+
+    public static String inverterOrdem(String frase) {
+        String[] palavras = frase.split(" ");
+        Pilha<String> pilha = new Pilha<String>(palavras.length);
+
+        // Empilha as palavras
+        for (String palavra : palavras) {
+            pilha.empilha(palavra);
+        }
+
+        // Desempilha para inverter
+        StringBuilder resultado = new StringBuilder();
+        while (!pilha.estaVazia()) {
+            resultado.append(pilha.desempilha());
+            if (!pilha.estaVazia()) {
+                resultado.append(" ");
+            }
+        }
+
+        return resultado.toString();
+    }
     @Override
     public String toString() {
         return "Pilha{" +
@@ -57,4 +128,6 @@ public class Pilha {
                 ", tamanho=" + tamanho +
                 '}';
     }
+
+
 }

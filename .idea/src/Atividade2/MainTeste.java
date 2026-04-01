@@ -3,7 +3,7 @@ package Atividade2;
 public class MainTeste {
     static void main(String[] args) {
 
-        Pilha pilha = new Pilha(10);
+        Pilha<String> pilha = new Pilha(10);
 
         pilha.empilha("A");
         pilha.empilha("B");
@@ -16,5 +16,18 @@ public class MainTeste {
 
         System.out.println("Topo: " + pilha.topo());
         System.out.println("lista: " + pilha);
+
+        System.out.println("=======================================");
+
+        System.out.println(pilha.inverter("luiz"));
+
+        System.out.println("=======================================");
+
+        System.out.println(pilha.ehPalindromo("arara"));
+        System.out.println(pilha.ehPalindromo("casa"));
+
+        System.out.println("=======================================");
+
+        System.out.println(pilha.inverterOrdem("eu gosto de java"));
     }
 }

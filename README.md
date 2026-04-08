@@ -306,7 +306,3 @@ Operações:
 * modelo
 
 ---
-
-
-
-Se quiser, posso deixar ainda mais bonito (com badges, cores, separadores ou versão pronta pra portfólio no GitHub).

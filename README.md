@@ -115,3 +115,175 @@ eu gosto de java
 Saída esperada:
 java de gosto eu.
 --------------------------------------------------------------------------------------------------------------
+Exercícios sobre Lista Encadeada 
+Exercício 1 — Lista de chamada da turma 
+Usando a estrutura de dados Lista Encadeada, crie um programa que simule uma lista de 
+chamada. 
+Cada aluno deve ter: 
+● nome 
+● matrícula 
+O programa deve: 
+● adicionar 5 alunos na lista; 
+● mostrar todos os alunos cadastrados; 
+● mostrar o primeiro aluno da lista; 
+● mostrar o último aluno da lista; 
+● informar quantos alunos existem na lista. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● toString 
+● pegaPrimeiro 
+● pegaUltimo 
+● getTamanho 
+Exercício 2 — Playlist de músicas 
+Crie um programa que simule uma playlist usando Lista Encadeada. 
+Cada música deve ter: 
+● título 
+● artista 
+O programa deve: 
+● adicionar 6 músicas; 
+● exibir a playlist completa; 
+● verificar se uma música específica está na lista; 
+● mostrar quantas músicas existem ao todo. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● contem 
+● getTamanho 
+Exercício 3 — Lista de compras 
+Usando Lista Encadeada, simule uma lista de compras. 
+Cada item deve ter: 
+● nome do produto 
+● quantidade 
+O programa deve: 
+● adicionar 7 itens; 
+● exibir todos os itens da lista; 
+● mostrar o item que está em uma posição informada; 
+● verificar se um determinado produto foi adicionado; 
+● contar quantos itens foram cadastrados. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● pega(int indice) 
+● contem 
+● getTamanho 
+Exercício 4 — Catálogo de livros 
+Crie um programa que represente um catálogo de livros usando Lista Encadeada. 
+Cada livro deve ter: 
+● título 
+● autor 
+● ano de publicação 
+O programa deve: 
+● cadastrar 5 livros; 
+● mostrar todos os livros; 
+● exibir o primeiro livro cadastrado; 
+● exibir o último livro cadastrado. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● pegaPrimeiro 
+● pegaUltimo 
+Exercício 5 — Histórico de navegação 
+Usando Lista Encadeada, crie um programa que simule um histórico de navegação. 
+Cada página deve ter: 
+● título da página 
+● endereço do site 
+O programa deve: 
+● adicionar 8 páginas visitadas; 
+● mostrar o histórico completo; 
+● informar se determinada página foi visitada; 
+● mostrar a última página visitada; 
+● informar a quantidade total de páginas no histórico. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● toString 
+● contem 
+● pegaUltimo 
+● getTamanho 
+Exercício 6 — Lista de convidados 
+Crie um programa que simule uma lista de convidados para um evento usando Lista 
+Encadeada. 
+Cada convidado deve ter: 
+● nome 
+● CPF 
+O programa deve: 
+● cadastrar 6 convidados; 
+● exibir a lista completa; 
+● verificar se um convidado específico está cadastrado; 
+● informar o número total de convidados. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● contem 
+● getTamanho 
+Exercício 7 — Estoque de produtos 
+Usando Lista Encadeada, crie um programa que simule um cadastro de produtos em 
+estoque. 
+Cada produto deve ter: 
+● nome 
+● preço 
+● quantidade em estoque 
+O programa deve: 
+● adicionar 5 produtos; 
+● exibir todos os produtos; 
+● mostrar o produto que está em uma determinada posição; 
+● verificar se um produto existe no estoque; 
+● mostrar o primeiro e o último produto cadastrados. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● pega(int indice) 
+● contem 
+● pegaPrimeiro 
+● pegaUltimo 
+Exercício 8 — Agenda de contatos 
+Crie um programa que represente uma agenda de contatos usando Lista Encadeada. 
+Cada contato deve ter: 
+● nome 
+● telefone 
+O programa deve: 
+● adicionar 6 contatos; 
+● exibir todos os contatos; 
+● verificar se um contato está cadastrado; 
+● exibir quantos contatos existem. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● toString 
+● contem 
+● getTamanho 
+Exercício 9 — Boletim de notas 
+Usando Lista Encadeada, crie um programa que simule o cadastro de notas de um aluno. 
+Cada registro deve ter: 
+● nome da disciplina 
+● nota final 
+O programa deve: 
+● adicionar 5 disciplinas; 
+● exibir todas as disciplinas com suas notas; 
+● mostrar qual disciplina está em uma posição específica; 
+● verificar se uma disciplina está cadastrada; 
+● mostrar quantos registros existem. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● pega(int indice) 
+● contem 
+● getTamanho 
+Exercício 10 — Vagas de estacionamento 
+Crie um programa usando Lista Encadeada para representar os carros estacionados. 
+Cada carro deve ter: 
+● placa 
+● modelo 
+O programa deve: 
+● adicionar 5 carros; 
+● exibir todos os carros estacionados; 
+● verificar se um carro de placa específica está na lista; 
+● exibir o primeiro e o último carro estacionados. 
+Objetivo didático 
+Treinar: 
+● adiciona 
+● contem 
+● pegaPrimeiro 
+● pegaUltimo
+----------------------------------------------------------------------------------------------------------------------------

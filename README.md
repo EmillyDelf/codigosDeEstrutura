@@ -302,6 +302,8 @@ Operações:
 
 ## Exercício 10 — Estacionamento
 
+link das questões divididas: https://docs.google.com/document/d/1LQrl1wyT_gOWfWdPIEX9kpZvBV2m-2ltngJ1X7kDBFE/edit?usp=sharing
+
 * placa
 * modelo
 

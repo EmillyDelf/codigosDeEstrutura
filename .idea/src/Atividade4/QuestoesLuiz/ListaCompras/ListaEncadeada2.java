@@ -65,7 +65,6 @@ public class ListaEncadeada2<T> {
         return false;
     }
 
-    // tamanho
     public int getTamanho() {
         return tamanho;
     }

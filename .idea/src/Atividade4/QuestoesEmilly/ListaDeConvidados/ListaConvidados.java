@@ -1,6 +1,6 @@
 package Atividade4.QuestoesEmilly.ListaDeConvidados;
 
-import Atividade3.QuestoesEmilly.estruturas.ListaEncadeada;
+import Atividade4.QuestoesEmilly.estruturas.ListaEncadeada;
 
 // Programa principal da lista de convidados
 public class ListaConvidados {

@@ -63,3 +63,4 @@ class Historico {
     public int getTamanho() {
         return tamanho;
     }
+}

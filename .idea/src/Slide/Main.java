@@ -6,10 +6,10 @@ public class Main {
         int[] numeros = {5, 3, 8, 4, 2};
 
         Selection selection =  new Selection();
+        
+        
         selection.selectionSort(numeros);
 
-        for (int num : numeros){
-            System.out.println(num + " ");
-        }
+        System.out.println(java.util.Arrays.toString(numeros));
     }
 }

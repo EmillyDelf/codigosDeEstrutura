@@ -5,7 +5,6 @@ public class Selection {
 
     public void selectionSort(int []vetor){
 
-
         for (int i = 0; i < vetor.length - 1; i++) {
             int menorIndex = i;
 
@@ -18,7 +17,10 @@ public class Selection {
             int temp = vetor[i];
             vetor[i] = vetor[menorIndex];
             vetor[menorIndex] = temp;
-
+            
+            
+            
+            
         }
     }
 
